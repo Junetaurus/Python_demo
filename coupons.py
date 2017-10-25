@@ -28,6 +28,6 @@ def writeToText(list_name, file_path):
             f.write(str(item) + '\n\n')
         f.close()
     except IOError:
-        print('write file')
+        print('write file fail')
 
 writeToText(keys, 'coupons.txt')
