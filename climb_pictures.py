@@ -1,5 +1,7 @@
 # 爬图片的程序
 
+#-*-coding: utf-8-*-
+
 import requests
 from pyquery import PyQuery
 from urllib.request import urlopen

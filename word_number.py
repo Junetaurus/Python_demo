@@ -1,4 +1,7 @@
 # 任一个英文的纯文本文件，统计其中的单词出现的个数。
+
+#-*-coding: utf-8-*-
+
 from collections import Counter
 
 f = open('subtitle.txt', 'r')
@@ -13,4 +16,4 @@ for line in f:
 print(c)
 
 for words in c.most_common():
-    print(words)
+    print(words, end= '&')

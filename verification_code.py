@@ -1,5 +1,7 @@
 # 使用 Python 生成字母验证码图片
 
+#-*-coding: utf-8-*-
+
 from PIL import Image, ImageFont, ImageDraw, ImageFilter
 import string
 import random
@@ -39,4 +41,4 @@ def producer(number):
     print(rand_char)
 
 if __name__ == '__main__':
-    producer(0)
+    producer(4)

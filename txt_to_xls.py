@@ -1,5 +1,7 @@
 # 纯文本文件 student.txt(为学生信息)写到 student.xls 文件中
 
+#-*-coding: utf-8-*-
+
 import xlwt
 
 with open('student.txt', 'r', encoding='utf-8') as f:
@@ -29,3 +31,4 @@ for i in range(len(student)):
         table.write(i//5, i % 5, student[i])
 
 file.save('student.xls')
+

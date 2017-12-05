@@ -1,6 +1,8 @@
 # 做为 Apple Store App 独立开发者，你要搞限时促销，为你的应用生成激活码（或者优惠券），使用 Python 如何生成 200 个激活码（或者优惠券）？
 # 保存到 MySQL 关系型数据库中
 
+#-*-coding: utf-8-*-
+
 import pymysql
 
 class save_coupons_to_mysql:
